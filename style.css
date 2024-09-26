@@ -1,0 +1,402 @@
+body {
+    background-color: black;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    background-image: url("assets/images/bg.jpg");
+    background-position: center center;
+    background-size: cover;
+    height: 105vh;
+    position: relative;
+}
+
+.main .box {
+    background-color: black;
+    height: 105vh;
+    opacity: 0.55;
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+    margin: auto;
+    align-items: center;
+    height: 80px;
+    z-index: 1;
+    position: relative;
+}
+
+nav img {
+    width: 150px;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+    font-family: "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    gap: 20px;
+    padding: 30px;
+}
+
+.intro> :nth-child(1) {
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.intro> :nth-child(2) {
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.intro> :nth-child(3) {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.flex{
+    display: flex;
+    gap: 20px;
+}
+
+.btn{
+    padding: 5px 25px;
+    font-family: "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-seri;
+    color:  rgb(255, 255, 255);
+    border: none;
+    border-radius: 4px;
+   cursor: pointer;
+}
+
+.red-btn:active{
+    background-color: rgb(202, 16, 16);
+}
+
+.red-btn:hover{
+    background-color: rgb(202, 16, 16);
+}
+
+.btn1{
+    background-color: rgba(0, 0, 0, 0.655);
+    font-size: 16px;
+    font-weight: 400;
+    border: 1px solid gray;
+    padding: 5px 25px;
+    font-family: "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-seri;
+    color:  rgb(255, 255, 255);
+    border-radius: 4px;
+}
+
+.btn2{
+    background-color: red;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.btn3{
+    background-color: red;
+    font-size: 24px;
+    font-weight: 500;
+    padding-top: 5px;
+    padding-bottom: 12px;
+}
+
+.email{
+    padding-bottom: 13.5px;
+    padding-top: 13.5px;
+    padding-left: 15px;
+    padding-right: 140px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family:  "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.655);
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-right: 3px;
+}
+
+.sepration{
+
+    height: 7px;
+    background-color: rgba(208, 208, 208, 0.187);
+}
+
+.first{
+      display: flex;
+      align-items: center;
+      width: 75vw;
+      margin: auto;
+      margin-top: 100px;
+      margin-bottom: 70px;
+}
+
+.boss{
+     /* i have given display flex only for giving gap between 2 sentences */
+    display: flex;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+    font-family: "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    gap: 15px;
+}
+
+.boss :nth-child(1){
+    font-size: 48px;
+    font-weight: 900;
+}
+
+ .boss :nth-child(2){
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.secimg img{
+    width: 450px;
+    position: relative;
+    z-index: 1;
+}
+
+.secimg video{
+    position: absolute;
+    height: 200px;
+    top: 790px;
+    right: 190px;
+}
+
+.second{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 75vw;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.thirdimg :nth-child(1){
+    width: 450px;
+    position: relative;
+}
+
+.king{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+     color: rgb(255, 255, 255);
+     font-family: "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+}
+
+.king :nth-child(1){
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.king :nth-child(2){
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.dibba{
+    display: flex;
+    align-items: center;
+    width: 280px;
+    height: 110px;
+    background-color: black;
+    border: 2px solid rgba(128, 128, 128, 0.53);
+    border-radius: 10px;
+    position: absolute;
+    top: 1490px;
+    left: 237px;
+}
+
+.dibba img{
+    padding-left: 10px;
+}
+
+.st{
+    color: rgb(255, 255, 255);
+    font-family: "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    padding-left: 20px;
+}
+
+.st :nth-child(1){
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.st :nth-child(2){
+    color: rgb(0, 113, 235);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.third{
+    display: flex;
+    align-items: center;
+    width: 74vw;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.raja{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    color: rgb(255, 255, 255);
+    font-family:  "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+}
+
+.raja :nth-child(1){
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.raja :nth-child(2){
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.fourimg img{
+    width: 450px;
+    position: relative;
+    z-index: 1;
+}
+
+.fourimg video{
+    height: 165px;
+    position: absolute;
+    top: 1820px;
+    right: 236px;
+}
+
+.fourth{
+    display: flex;
+    align-items: center;
+    width: 72vw;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+
+.don{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    color: rgb(255, 255, 255);
+    font-family:  "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+}
+
+.don :nth-child(1){
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.don :nth-child(2){
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.fifth{
+    width: 75vw;
+    height: 140vh;
+    margin: auto;
+    color: rgb(255, 255, 255);
+    font-family:  "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    margin-top: 70px;
+}
+
+.fifth> :nth-child(1){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 25px;
+}
+
+.faqbox:hover{
+    background-color: rgba(128, 128, 128, 0.502);
+}
+
+.faqbox{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    background-color: rgb(45, 45, 45);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 10px;
+    padding: 25px;
+}
+
+.secemail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.secemail> :nth-child(1){
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.sixth{
+    color: rgba(255, 255, 255, 0.7);
+    font-family:  "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    font-weight: 400;
+    margin: 60px 100px;
+}
+
+.qn{
+    margin-bottom: 25px;
+    font-size: 16px;
+}
+
+a{
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+}
+
+a:hover{
+    color: white;
+}
+
+.cells{
+    font-size: 14px;
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px;
+    gap: 20px;
+}
+
+.ending{
+    margin-top: 25px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+
+
+
